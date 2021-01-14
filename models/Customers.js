@@ -1,17 +1,21 @@
 const {model,Schema} = require('mongoose')
 
 const CustomerSchema = new Schema({
-    first_name:{
+    name:{
         type: String,
         
-    },
-    last_name:{
-        type: String,
     },
     balance:{
         type: Number,
 
     },
+    email:{
+        type:String,
+    },
+    account_number:{
+        type:String,
+
+    }
 
 })
 
